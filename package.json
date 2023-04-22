@@ -17,15 +17,15 @@
       "mode": "view"
     },
     {
-      "name": "market-data",
-      "title": "View Market Data",
-      "description": "",
+      "name": "search-nft-collections",
+      "title": "Search NFT Collections",
+      "description": "Searches NFT Collections",
       "mode": "view"
     },
     {
-      "name": "test-stuff",
-      "title": "Test Stuff",
-      "description": "Test Stuff",
+      "name": "market-data",
+      "title": "View Market Data",
+      "description": "",
       "mode": "view"
     }
   ],

@@ -39,12 +39,7 @@ export default function SearchToken() {
                             <List.Item.Detail.Metadata.Label title="SYMBOL" text={`${token.symbol}`} />
                             <List.Item.Detail.Metadata.Separator />
                             <List.Item.Detail.Metadata.Label title="CHAIN" text={`${token.chain.name}`} />
-                            <List.Item.Detail.Metadata.Separator />
-                            <List.Item.Detail.Metadata.Link
-                            title="Checkout on CoinGecko"
-                            target={`https://www.coingecko.com/en/coins/${token.coin_gecko_id}`}
-                            text={`${token.coin_gecko_id}`}
-                            />
+                            <List.Item.Detail.Metadata.Separator />                            
                         </List.Item.Detail.Metadata>
                       }
                     />
