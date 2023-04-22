@@ -17,6 +17,12 @@
       "mode": "view"
     },
     {
+      "name": "market-data",
+      "title": "View Market Data",
+      "description": "",
+      "mode": "view"
+    },
+    {
       "name": "test-stuff",
       "title": "Test Stuff",
       "description": "Test Stuff",

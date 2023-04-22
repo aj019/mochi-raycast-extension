@@ -8,3 +8,12 @@ export async function fetchTokens() {
     // console.log(response);
     return response.json()
 }
+
+export async function fetchMarketData() {
+    const url = "https://api.mochi.pod.town/api/v1/defi/market-data";
+    const response = await fetch(url, {
+        method: "GET"        
+    })
+    // console.log(response);
+    return response.json()
+}
