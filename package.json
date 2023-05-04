@@ -27,6 +27,12 @@
       "title": "View Market Data",
       "description": "",
       "mode": "view"
+    },
+    {
+      "name": "trending",
+      "title": "View Trending Tokens",
+      "description": "",
+      "mode": "view"
     }
   ],
   "dependencies": {

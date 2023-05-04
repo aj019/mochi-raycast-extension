@@ -26,3 +26,12 @@ export async function fetchNFTCollections() {
     // console.log(response);
     return response.json()
 }
+
+export async function fetchTrendingTokens() {
+    const url = "https://api.mochi.pod.town/api/v1/defi/trending";
+    const response = await fetch(url, {
+        method: "GET"        
+    })
+    // console.log(response);
+    return response.json()
+}
