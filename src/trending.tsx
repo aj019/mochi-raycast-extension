@@ -40,15 +40,8 @@ export default function MarketData() {
                       <List.Item.Detail.Metadata.Separator />
                       <List.Item.Detail.Metadata.Label title="Current Price" text={`${data.item.price_btc} BTC`} />
                       <List.Item.Detail.Metadata.Separator />
-                      {/* <List.Item.Detail.Metadata.Label title="Market Cap" text={`$${formatAmount(data.market_cap)}`} />
-                      <List.Item.Detail.Metadata.Separator /> */}
                       <List.Item.Detail.Metadata.Label title="Market Cap Rank" text={`${data.item.market_cap_rank}`} /> 
                       <List.Item.Detail.Metadata.Separator />
-                      {/* <List.Item.Detail.Metadata.Label title="Price Change in 1hr" text={`${formatAmount(data.price_change_percentage_1h_in_currency)}%`} /> 
-                      <List.Item.Detail.Metadata.Separator />
-                      <List.Item.Detail.Metadata.Label title="Price Change in 24hr" text={`${formatAmount(data.price_change_percentage_24h_in_currency)}%`} /> 
-                      <List.Item.Detail.Metadata.Separator />
-                      <List.Item.Detail.Metadata.Label title="Price Change in 7d" text={`${formatAmount(data.price_change_percentage_7d_in_currency)}%`} />  */}
                   </List.Item.Detail.Metadata>
                 }
               />

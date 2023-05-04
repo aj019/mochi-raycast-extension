@@ -35,3 +35,20 @@ export async function fetchTrendingTokens() {
     // console.log(response);
     return response.json()
 }
+
+export async function convertPrice(base: string,target: string,amount: string) {
+    const url = "https://api.indexer.console.so/api/v1/token/convert-price";
+    let payload = {
+        from: base.toUpperCase(),
+        to: target.toUpperCase(),
+        amount: amount,
+    }
+    const response = await fetch(url, {
+        method: "POST",
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+
+    })
+    // console.log(response);
+    return response.json()
+}

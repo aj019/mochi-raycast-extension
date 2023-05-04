@@ -33,6 +33,12 @@
       "title": "View Trending Tokens",
       "description": "",
       "mode": "view"
+    },
+    {
+      "name": "convert",
+      "title": "Convert",
+      "description": "",
+      "mode": "view"
     }
   ],
   "dependencies": {
